@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
             checkAnswer();
         }
     })
-    
+
     runGame("addition");
 });
 
@@ -134,3 +134,4 @@ function displayMultiplyQuestion(operand1, operand2) {
     document.getElementById('operator').textContent = "x";
 
 }
+
